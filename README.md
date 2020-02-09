@@ -21,22 +21,19 @@ Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 
 ### Install and Test
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
+1. Download or clone repo
+2. Enter the folder
+3. Command line run `yarn`
+4. Run development version `docker-compose up`
+5. Build production `yarn prod`
 
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+Plugins for **css** optimization have also been used and instead of 70KB! css we have 23KB
+- postcss-cli
+- autoprefixer
+- CSSN
+- @fullhuman/postcss-purgecss
 
----
-
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
-
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+Access via: [http://localhost:4000/blog/](http://localhost:4000/blog/)
 
 ---
 
