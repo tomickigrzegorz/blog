@@ -30,7 +30,7 @@ Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 Plugins for **css** optimization have also been used and instead of 70KB! css we have 23KB
 - postcss-cli
 - autoprefixer
-- CSSN
+- cssnano
 - @fullhuman/postcss-purgecss
 
 Access via: [http://localhost:4000/blog/](http://localhost:4000/blog/)
