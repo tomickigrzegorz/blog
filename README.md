@@ -37,6 +37,15 @@ Access via: [http://localhost:4000/blog/](http://localhost:4000/blog/)
 
 ---
 
+### UX Experience
+
+For better user experience, the [zooom.js] library has been added [zooom.js](https://github.com/tomik23/zooom.js)
+To the photo which we want to be enlarged should be added class `zooom`
+Example of use:
+`![Bitbucket screen](/blog/images/bugfix123-bug_remove_extra_padding.png "Bitbucket screen"){: class="zooom"}`
+
+---
+
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).

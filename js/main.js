@@ -46,6 +46,15 @@ exclude: 'yes'
       navigationWrapper.classList.toggle('visible');
       toggleClasses(btnMobileMenuIcon, 'icon-list', 'icon-x-circle', 'animated', 'fadeIn');
     });
+
+    new Zooom({
+      element: '.zooom',
+      padding: 80,
+      overlay: {
+        color: '#000',
+        opacity: '.5'
+      }
+    });
   }
 
 )
