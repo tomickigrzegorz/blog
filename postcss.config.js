@@ -16,7 +16,8 @@ const configPurgecss = () => {
   return {
     content: [
       './blog/**/*.html',
-      './blog/js/main.js'
+      './blog/js/main.js',
+      './blog/js/zooom.js'
     ],
     defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
   }
