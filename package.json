@@ -8,6 +8,12 @@
     "postbuild": "postcss blog/css/main.css -o blog/css/main.css --env=production",
     "prod": "yarn build & yarn postbuild"
   },
+  "browserslist": [
+    "last 2 version",
+    ">1%",
+    "not op_mini all",
+    "not dead"
+  ],
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
